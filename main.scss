@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,300&family=Nunito:wght@800&display=swap');
+
+$font-body: IBM Plex Sans, sans-serif;
+$font-display: Nunito, sans-serif;
+$font-logo: Boogaloo, sans-serif;
+
+$color-primary: #3b3c68;
+$color-secondary: rgb(93, 197, 231);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+}
+
+
+div {
+    margin: 40px;
+}
+
+p{
+    margin: 30px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+nav {
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+
+    #dada {
+        font-family: $font-logo;
+        font-size: 80px;
+        color: $color-primary;
+    }
+
+    #button { 
+        border: 2px solid $color-primary;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 15px 35px;
+        color: $color-primary;
+        margin-left: auto;
+    }
+}
+
+#intro {
+    text-align: center;
+    font-family: $font-display;
+    font-size: 40px;
+    color: $color-secondary;
+}
+
+.device {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reason-1 {
+    text-align: center;
+    font-family: $font-body;
+    font-size: 35px;
+    font-weight: bold;
+    color: $color-primary;
+}
+
+#reason-2 {
+    text-align: center;
+    font-family: $font-body;
+    font-size: 30px;
+    font-weight: bold;
+    color: $color-secondary;
+}
+
+#reason-3 {
+    text-align: center;
+    font-family: $font-body;
+    font-size: 25px;
+    color: $color-primary;
+}
+
+.button {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    color: white;
+    background-color: $color-primary;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: $font-body;
+    font-size: 35px;
+    color: $color-primary;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    font-family: $font-body;
+    font-size: 30px;
+    color: $color-primary;   
+}
+
+.info-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-family: $font-body;
+    font-size: 30px;
+    color: $color-primary;  
+}
+
+footer{
+    margin-top: 150px;
+    background-color: rgb(255, 241, 223);
+
+    a {
+        display: block;
+        text-align: center;
+        font-family: $font-body;
+        font-size: 35px;
+        padding: 25px;
+        font-weight: bold;
+    }
+}
+
+
